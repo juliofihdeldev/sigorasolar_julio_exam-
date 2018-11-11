@@ -1,32 +1,134 @@
 .App {
-  text-align: center;
+  background: #eee;
+  padding-top: 2.5%; 
+  padding-bottom: 2.5%; 
+  height: "100%";
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.contentForm{
+  background:#fff;
+  width: 60%;
+  height: "100%";
+  margin: auto;
+  box-shadow: 0px 0px 6px #ccc;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.contentForm .form {
+}
+
+.contentForm .title {
+  color: #444;
+  font-size: 22px;
+  font-weight: bold;
+  font-family:Calibri;
+  padding:10px;
+  background: #eee;
+  text-align: center
+}
+
+.contentForm .infoBox {
+  padding-top: 32px;
+}
+
+.contentForm .basicInfo .title , .contentForm .infoBox .title  {
+  color:rgb(73, 122, 0);
+  font-size: 17px;
+  font-family:Calibri;
+  padding:10px;
+  background: #fff;
+  text-align: left;
+  margin-top: 1px;
+}
+
+.contentForm .basicInfo label , .contentForm .infoBox label   {
+  color:#333;
+  font-size: 14px;
+  font-family:Calibri;
+  padding:10px;
+  font-weight: bold;
+}
+
+ .inputForm {
+  color:#333;
+  font-size: 17px;
+  font-family:Calibri;
+  border: none;
+  padding:10px;
+  box-shadow: 0px 1px 0px #ccc;
+  width: 85%;
+  margin-top: 8px;
+  box-shadow: 0px 0px 1px #777;
+  outline:none;
+}
+.inputFormShort{
+  color:#333;
+  font-size: 17px;
+  font-family:Calibri;
+  border: none;
+  padding:10px;
+  box-shadow: 0px 0px 1px #ccc;
+  width: 38%;
+  margin-top: 8px;
+  outline:none;
+
+}
+.noBorder{
+  border: none;
+  color:#333;
+  font-size: 17px;
+  font-family:Calibri;
+  padding:10px;
+  border: none;
+  margin-top: 8px;
+  outline:none;
+}
+
+.flexProps {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  justify-content:flex-start;
+  padding-left: 10px;
+  align-items:center;
+}
+.spaceForNo{
+  margin-left: 50px
+}
+textarea{
+  width: 96%;
+  height: 100px;
+  border: none;
+  box-shadow: 0px 0px 1px #333;
+  margin-left: 2%;
+  resize: none;
+}
+.submit{
+  height: 30px;
+  background:#e0ad21;
+  width: 10%;
+  margin-left: 40%;
+  text-align: center;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 40px;
+  cursor: pointer;
+  box-shadow: 0px 0px 2px #eee;
+}
+.submit:hover{
+  height: 30px;
+  background:#aa7f06;
+  width: 10%;
+  margin-left: 40%;
+  text-align: center;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 40px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
