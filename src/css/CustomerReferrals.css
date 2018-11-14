@@ -1,0 +1,353 @@
+.content {
+  background: rgba(0, 0,0,0.5);
+  width: 100%;
+  position: relative;
+  margin: 0;
+  padding-top: 14px;
+  padding-bottom: 68px;
+}
+
+.card {
+  width: 450px;
+  height: 829px;
+  box-shadow: 0 24px 24px 0 rgba(0, 0, 0, 0.3), 0 0 24px 0 rgba(0, 0, 0, 0.22);
+  background-color: #ffffff;
+  margin: auto;
+  margin-top: 14;
+  margin-bottom: 62;
+  padding: 20px;
+}
+
+.customerAndCompanyInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: "space-between";
+  margin-top: 32px;
+}
+
+.customerBoxInfo {
+}
+
+.CUSTOMER-REFERRALS {
+  width: 450px;
+  height: 33px;
+  font-family: AvenirNext;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #fca700;
+  padding-top: 17px;
+}
+
+.fromAndName {
+  /* border: 1px solid red; */
+  /* display: flex;
+      flex-direction: row; */
+  width: 200px;
+}
+
+.FROM {
+  width: 171px;
+  height: 14px;
+  font-family: AvenirNext;
+  font-size: 10px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.3px;
+  color: #4a4a4a;
+}
+
+.Larissa-Harrington {
+  width: 154px;
+  height: 19px;
+  font-family: AvenirNext;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  color: #4a4a4a;
+  margin-left: 8px;
+}
+
+.-Catlin-Rd-Samu {
+  width: 177px;
+  height: 28px;
+  font-family: AvenirNext;
+  font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  color: #4a4a4a;
+  margin-left: 40px;
+}
+
+.Line-Copy-2 {
+  width: 100%;
+  height: 1px;
+  border: solid 0.3px #ccc;
+  margin-top: 22px;
+}
+
+.Line {
+  width: 5px;
+  height: 44px;
+  border: solid 0.3px #ccc;
+}
+.margin {
+  margin-left: 49px;
+}
+
+.addressCompany {
+  margin-left: -12px;
+}
+
+.priceInfo {
+  margin-top: 32px;
+}
+.contentSpan {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.span1 {
+  width: 119px;
+  height: 19px;
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #404040;
+}
+.span1Value {
+  width: 53px;
+  height: 19px;
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #9b9b9b;
+  margin-left: 100px;
+}
+.inputprice {
+  width: 98px;
+  height: 25px;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+  border: solid 1px #979797;
+  background-color: #ffffff;
+
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #9b9b9b;
+}
+
+.result {
+  margin-top: 32px;
+  height: 150px;
+overflow: auto;
+}
+
+.headerResult {
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+
+}
+
+.resultData {
+  margin-top: 16px;
+}
+
+.resultData {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.titleHeader {
+  width: 175px;
+  height: 19px;
+  font-family: AvenirNext;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  color: #fca700;
+}
+.nameResult {
+  width: 154px;
+  height: 19px;
+  font-family: AvenirNext;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  color: #4a4a4a;
+}
+.adresseResult {
+  width: 150px;
+  height: 28px;
+  font-family: AvenirNext;
+  font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  color: #4a4a4a;
+  margin-left: -8px;
+  margin-left: 20px;
+}
+
+.telephoneResult {
+  width: 100px;
+  height: 14px;
+  font-family: AvenirNext;
+  font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  color: #4a4a4a;
+  margin-left: 25px;
+}
+
+.formAdd {
+  margin-top: 32px;
+}
+
+.titleFormAdd {
+  width: 129px;
+  height: 19px;
+  font-family: AvenirNext;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  color: #fca700;
+}
+.spanForm1 {
+  width: 0px;
+  height: 19px;
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #404040;
+}
+.inputpriceForm {
+  width: 309px;
+  height: 25px;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+  border: solid 1px #979797;
+  background-color: #ffffff;
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #9b9b9b;
+}
+.submit {
+  width: 145px;
+  height: 36px;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), inset 0 2px 0 0 #ffffff;
+  border: solid 1px #979797;
+  background-image: linear-gradient(to bottom, #f2f2f2, #d4d4d4);
+  margin-top: 32px;
+  margin-left: 130px;
+  cursor: pointer;
+  font-family: AvenirNext;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  text-align: center;
+  color: #4a4a4a;
+}
+.warnIntoContent {
+  margin-top: 22px;
+}
+.Warm-Intro {
+  width: 154px;
+  height: 19px;
+  font-family: AvenirNext;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  color: #4a4a4a;
+}
+.more {
+  width: 178px;
+  height: 25px;
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a4a4a;
+}
+
+.Button-Background-Copy-9 {
+  width: 124px;
+  height: 26px;
+  line-height: 33px;
+  border-radius: 2px;
+  background-color: #fca700;
+  font-family: AvenirNext;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 140px;
+  margin-top: 10px;
+  padding-top: 10px;
+  cursor: pointer;
+}

@@ -36,23 +36,23 @@ class CustomerForm extends Component {
                             Basic info
                         </div>
                         <div className="flexProps">
-                            <label name="name"> Name : </label>
+                            Name:
                             <input type="text" className="inputForm" name="name"/>
                         </div>
                         <div className="flexProps">
-                            <label name="Addresse"> Addresse : </label>
+                            Addresse: 
                             <input type="text" name="Addresse" value="1878 Coltn Road Charlotte ville, VA 22911 "  className="noBorder" readOnly/>
                         </div>
                         <div className="flexProps">   
-                            <label name="email"> Email : </label>
+                            Email:
                             <input type="mail" name="email" className="inputForm"  />
                         </div>
                         <div className="flexProps">   
-                            <label name="email"> Phone : </label>
+                           Phone : 
                             <input type="tel" name="phone" className="inputForm"  />
                         </div>
                         <div className="flexProps">
-                            <label name="Addresse"> Account #: </label>
+                           Account #:
                             <input type="text" name="Addresse" value="11376"  className="noBorder" />
                         </div>
                     </div>
@@ -62,16 +62,16 @@ class CustomerForm extends Component {
                             Home info
                         </div>
                         <div  className="flexProps">
-                            <label name="squareFootageHome"> Square Footage of Home: </label>
+                            Square Footage of Home:
                             <input type="text" name="squareFootageHome"  className="inputForm"  />
                         </div>
                         <div  className="flexProps">
-                            <label name="homeValue"> Home value (Cost estimation) </label>
+                           Home value (Cost estimation)
                             <input type="text" name="homeValue"  className="inputForm" />
                         </div>
             
                         <div  className="flexProps">
-                            <label name="Addresse">  New construction ? </label>
+                             New construction ?
                             <input type="radio" name="if_new_construction" value="Yes" /> yes 
                             <input type="radio" name="if_new_construction" value="No" className="spaceForNo"/> No
                         </div>
@@ -82,22 +82,22 @@ class CustomerForm extends Component {
                             Energy Info
                         </div>
                         <div  className="flexProps">
-                            <label name="squareFootageHome"> Utility Company </label>
+                            Utility Company :
                             <select className="inputForm">
                                 {/* <option value="company"> </option> */}
                             </select>
                         </div>
 
                         <div  className="flexProps">
-                            <label name="account"> Account #</label>
+                            Account #
                             <input type="text" name="account"  className="inputFormShort"  />
 
-                           <span className="spaceForNo" > Heating: </span> <input type="radio" name="if_new_construction" value="Yes" className="spaceForNo" /> Electric  
+                           Heating: <input type="radio" name="if_new_construction" value="Yes" className="spaceForNo" /> Electric  
                             <input type="radio" name="if_new_construction" value="Yes" /> Propane  
                         </div>
 
-                        <div className="">
-                            <label name="account"> 12 month consumption</label> <br/>
+                        <div className="cnt">
+                            12 month consumption <br/>
 
                             <table className="spaceForNo"> 
                             <tbody>
@@ -130,61 +130,61 @@ class CustomerForm extends Component {
                             </div>
 
                             <div  className="flexProps">
-                                <label name="combineInfo"> Combined income </label>
+                                Combined income:
                                 <input type="text" name="combineInfo"  className="inputForm"  />
                             </div>
                             <div  className="flexProps">
-                                <label name="Debt"> Debt </label>
+                                Debt:
                                 <input type="text" name="Debt"  className="inputFormShort" />
                             
-                                <label name="creditScore"> Credit score </label>
+                                 Credit score:
                                 <input type="text" name="creditScore"  className="inputFormShort" />
                             </div>
 
                             <div  className="flexProps">
-                                <label name="numberYearAdress"> Number of the years at Address </label>
+                                Number of the years at Address:
                                 <input type="text" name="numberYearAdress"  className="inputForm"  />
                             </div>
                 
                             <div  className="flexProps">
-                                <label name="employer"> Employer </label>
+                               Employer:
                                 <input type="text" name="employer"  className="inputForm"  />
                             </div>
 
                             <div  className="flexProps">
-                                <label name="numberYearEmployer"> Number of the years with employer </label>
+                                Number of the years with employer:
                                 <input type="text" name="numberYearEmployer"  className="inputForm"  />
                             </div>
 
                             <div  className="flexProps">
-                                <label name="legaly"> Legaly</label>
+                                Legaly:
                                 <input type="radio" name="legaly" value="Maried" /> Maried  
                                 <input type="radio" name="legaly" value="Single" /> Single  
                             </div>
 
 
                             <div  className="flexProps">
-                                <label name="annualLiability"> Annual Liabilities </label>
+                                Annual Liabilities:
                                 <input type="text" name="annualLiability"  className="inputForm"  />
                             </div>
 
                             <div  className="flexProps">
-                                <label name="assot"> Assots </label>
+                                Assots:
                                 <input type="text" name="assot"  className="inputForm"  />
                             </div>
 
                             <div  className="flexProps">
-                                <label name="bank"> Bank </label>
+                                Bank:
                                 <input type="text" name="bank" className="inputForm"  />
                             </div>
 
                             <div className="flexProps">
-                                <label name="numberBank"> # of the year at Bank </label>
+                               # of the year at Bank:
                                 <input type="text" name="numberBank"  className="inputForm"  />
                             </div>
 
                              <div className="flexProps">
-                                <label name="totalBalance"> Total Balances </label>
+                                Total Balances:
                                 <input type="text" name="totalBalance"  className="inputForm"  />
                             </div>
                         </div>
@@ -217,16 +217,16 @@ class CustomerForm extends Component {
                             </div>
                            <label>  Signed Date  </label> <br/>
                             <div  className="flexProps">
-                                <label name="signPrice"> Price </label>
+                                Price:
                                 <input type="number" name="signPrice"  className="inputFormShort"  />
 
-                                <label name="systemSize"> System size </label>
+                                 System size :
                                 <input type="number" name="systemSize"  className="inputFormShort"  />
                             </div>
 
-                            <label> Adders </label> <br/>
+                          Adders: <br/>
                             <div  className="flexProps">
-                                <label name="adders"> Details </label>
+                                Details :
                                 <input type="text" name="adders"  className="inputForm"  />
                             </div>
                         </div>
@@ -237,17 +237,17 @@ class CustomerForm extends Component {
                             </div>
                           
                             <div  className="flexProps">
-                                <label name="salePerson"> Sales person </label>
+                                Sales person :
                                 <input type="text" name="salePerson"  className="inputForm"  />
                             </div>
 
                             <div  className="flexProps">
-                                <label name="setter"> Setter </label>
+                                 Setter :
                                 <input type="text" name="setter"  className="inputForm"  />
                             </div>
 
                             <div  className="flexProps">
-                                <label name="referBy"> Reffered by  </label>
+                                 Reffered by :
                                 <input type="text" name="referBy"  className="inputForm"  />
                             </div>
                         </div>
@@ -258,7 +258,7 @@ class CustomerForm extends Component {
                             </div>
 
                             <div  className="flexProps">
-                                <label name="leadSources"> Load sources </label>
+                               Load sources :
 
                                 <select className="inputForm">
                                    
@@ -266,7 +266,7 @@ class CustomerForm extends Component {
                             </div>
 
                             <div  className="flexProps">
-                                <label name="squareFootageHome"> Describe Brand Company  </label>
+                                 Describe Brand Company :
                                 <input type="text" name="squareFootageHome"  className="inputForm"  />
                             </div>
                         </div>
@@ -276,7 +276,7 @@ class CustomerForm extends Component {
                                 Upload Documents
                             </div>
 
-                            <div  className="flexPropsColun">
+                            <div  className="flexPropsColum">
                                 <input type="checkbox" name="State_issued_drivers_licence" value="State issued Drivers Licence (Restrited ) "/> 1. State issued Drivers Licence (Restrited ) <br/>
                                 <input type="checkbox" name="w2" value="W2 "/> 2. W2 (Restrited) <br/>
                                 <input type="checkbox" name="sales_photos" value="Sales photos "/> 3. Sales photos <br/>
