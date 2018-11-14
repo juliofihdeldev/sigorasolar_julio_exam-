@@ -83,6 +83,7 @@ class CustomerReferrals extends Component {
             <div className="result">
               <div className="headerResult">
                 <table>
+                    <tbody>
                   <tr>
                     <td>
                   
@@ -97,11 +98,13 @@ class CustomerReferrals extends Component {
                       <div className="titleHeader phone"> PHONE </div>{" "}
                     </td>
                   </tr>
+                  </tbody>
                 </table>
               </div>
               {this.dataRes.map(users => (
                 <div className="resultData" key={users.name}>
                   <table>
+                    <tbody>
                     <tr>
                       <td>
                     
@@ -120,6 +123,7 @@ class CustomerReferrals extends Component {
                         </div>
                       </td>
                     </tr>
+                    </tbody>
                   </table>
                 </div>
               ))}
@@ -182,7 +186,7 @@ class CustomerReferrals extends Component {
                 </div>
                 <input
                   type="submit"
-                  defaultValue="Add Name"
+                  value="Add Name"
                   name="submit"
                   className="submit"
                 />
