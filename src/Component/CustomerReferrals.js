@@ -105,21 +105,19 @@ class CustomerReferrals extends Component {
                     <tr>
                       <td>
                     
-                        <div className="nameResult"> {users.name} </div>{" "}
+                        <div className="nameResult"> {users.name} </div>
                       </td>
                       <td>
                     
                         <div className="adresseResult">
-                      
-                          {users.adresse}{" "}
-                        </div>{" "}
+                          {users.adresse}
+                        </div>
                       </td>
                       <td>
                     
                         <div className="telephoneResult">
-                      
-                          {users.phone}{" "}
-                        </div>{" "}
+                          {users.phone}
+                        </div>
                       </td>
                     </tr>
                   </table>
@@ -171,7 +169,7 @@ class CustomerReferrals extends Component {
                 </div>
 
                 <div className="warnIntoContent">
-                  <span className="Warm-Intro"> Warm Intro? </span>
+                  <span className="Warmntro"> Warm Intro? </span>
                   <span className="more">
                     <input
                       type="checkbox"
