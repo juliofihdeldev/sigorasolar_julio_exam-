@@ -1,0 +1,337 @@
+.content {
+    background:#fff;
+    position: relative;
+    padding-top: 14px;
+    /* padding-bottom: 68px; */
+    width: 1084px;
+    margin: 0;
+    margin: auto;
+    border: 1px solid #eee;
+  }
+  .payment{
+    padding-left: 60px;
+    width: 645px;
+  }
+  .choice{
+    width: 300px;
+  }
+  .choiceRigth{
+    width: 300px;
+    margin-left: 40px;
+  }
+  .contentChoice{
+    display: flex;
+    width:645px;
+  }
+  .paymentTitle{
+    width: 374px;
+    height: 25px;
+    font-family: AvenirNext;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #31629b;
+  }
+  .Cash {
+    width: 53px;
+    height: 19px;
+    font-family: Avenir;
+    font-size: 14px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #404040;
+  }
+  .Check {
+    width: 53px;
+    height: 19px;
+    font-family: Avenir;
+    font-size: 14px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #9b9b9b;
+  }
+  .eggSelect{
+    width: 157px;
+    height: 19px;
+    font-family: Avenir-Roman;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4a4a4a;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), inset 0 2px 0 0 #ffffff;
+    border: solid 1px #979797;
+    background-image: linear-gradient(to bottom, #f2f2f2, #d4d4d4);
+    margin-left: 10px;
+  }
+  .margin50{
+    margin-left: 80px;
+    margin-top: 10px;
+  }
+ 
+.Line-Copy-2 {
+    width: 100%;
+    height: 1px;
+    border: solid 0.3px #ccc;
+    margin-top: 22px;
+  }
+  .Line_Copy_result {
+    width: 100%;
+    height: 1px;
+    border: solid 0.3px #ccc;
+    margin-top: 2px;
+  }
+  
+  .Line {
+    width: 5px;
+    height: 44px;
+    border: solid 0.3px #ccc;
+  }
+  .contentPriceInfos{
+     display: block;
+  }
+
+  .priceInfo {
+    margin-top: 32px;
+  }
+  .contentSpan {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  
+  .span1 {
+    width: 197px;
+    height: 19px;
+    font-family: Avenir;
+    font-size: 14px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #404040;
+    margin-top: 12px;
+  }
+  .span1Value {
+    width: 153px;
+    height: 19px;
+    font-family: Avenir;
+    font-size: 14px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #9b9b9b;
+    margin-left: 60px;
+    margin-top: 12px;
+  }
+  .inputprice {
+    width: 98px;
+    height: 25px;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+    border: solid 1px #979797;
+    background-color: #ffffff;
+    font-family: Avenir;
+    font-size: 14px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    /* color: #9b9b9b; */
+    color: #31629b;
+    
+  }
+  ::placeholder{
+      color: #31629b;
+  }
+  .companyList{
+    width: 319px;
+    height: 25px;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), inset 0 2px 0 0 #ffffff;
+    border: solid 1px #979797;
+    background-image: linear-gradient(to bottom, #f2f2f2, #d4d4d4);
+    font-family: Avenir-Roman;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4a4a4a;
+}
+.submit{
+    width: 157px;
+    height: 36px;
+    border-radius: 6px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), inset 0 2px 0 0 #ffffff;
+    border: solid 1px #979797;
+    background-image: linear-gradient(to bottom, #f2f2f2, #d4d4d4);
+    font-family: Avenir-Roman;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #404040;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.borderNone{
+    border: none;
+    outline:none;
+    font-family: Avenir;
+    font-size: 14px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #9b9b9b;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.result{
+padding: 16px;
+padding-left: 28px;
+  width: 379px;
+  height: 956px;
+  background-color: #d8d8d8;
+}
+.images{
+    width: 322px;
+    height: 304px;
+    box-shadow: 0px 0px 2px #333;
+}
+.images img{
+    width: 100%;  
+    height: 100%;  
+}
+.resultInfo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 24px;
+}
+.theTitle{
+    width: 136px;
+    height: 51px;
+    font-family: AvenirNext;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.6px;
+    color: #4a4a4a;
+}
+.descriptionInfo{
+    margin-left: 80px;
+}
+.kw{
+    width: 109px;
+    height: 19px;
+    font-family: AvenirNext;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    text-align: right;
+    color: #4a4a4a;
+}
+.module{
+    width: 91px;
+  height: 19px;
+  font-family: AvenirNext;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  text-align: right;
+  color: #4a4a4a;
+  margin-left: 16px;
+}
+.month{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction:row;
+    margin-top: 32px;
+}
+.monthSave{
+    /* border: 1px solid red; */
+
+}
+
+.titleSaving{
+    width: 148px;
+    height: 14px;
+    font-family: AvenirNext;
+    font-size: 10px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a4a4a;
+  }
+
+
+  .amountSaving{
+    width: 148px;
+    height: 25px;
+    font-family: AvenirNext;
+    font-size: 18px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.5px;
+    text-align: center;
+    color: #00a74d;
+  }
+
+
+  .monthtotal {
+    width: 148px;
+    height: 25px;
+    font-family: AvenirNext;
+    font-size: 18px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.5px;
+    text-align: center;
+    color: #ff4c00;
+    margin-left: 40px;
+
+  }
+  .marginMonth{
+    margin-left: 40px;
+  }
+  

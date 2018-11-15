@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 // import './App.css';
 // import CustomerForm from './Component/CustomerForm';
-import CustomerReferrals from './Component/CustomerReferrals';
+// import CustomerReferrals from './Component/CustomerReferrals';
+import BuildMoneyStuff from './Component/BuildMoneyStuff';
 
 class App extends Component {
   render() {
@@ -9,7 +10,9 @@ class App extends Component {
  
       <div className="App">
           {/* <CustomerForm /> */}
-          <CustomerReferrals/>
+          {/* <CustomerReferrals/> */}
+          <BuildMoneyStuff />
+        
       </div>
     );
   }

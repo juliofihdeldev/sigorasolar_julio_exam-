@@ -30,6 +30,7 @@ class CustomerReferrals extends Component {
 
   render() {
     return (
+    
       <div className="content">
         <div className="card">
           <div className="CUSTOMER-REFERRALS">CUSTOMER REFERRALS</div>
