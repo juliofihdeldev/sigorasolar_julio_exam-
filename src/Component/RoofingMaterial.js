@@ -61,7 +61,7 @@ class RoofingMaterial extends Component {
             <div className="contentOptions">
               <div className="cardForOptions">
                 <div className="imagesContent">
-                  <img src="https://s3.amazonaws.com/sigorasolar/br/rooftypes/CO-metal-roofing-+black.jpg" />
+                  <img src="https://s3.amazonaws.com/sigorasolar/br/rooftypes/shingle- black.jpg" />
                 </div>
                 <div className="nameOptions">Asphalt Shingle</div>
                 <div className="selectOptions">
@@ -100,7 +100,7 @@ class RoofingMaterial extends Component {
             <div className="contentOptions">
               <div className="cardForOptions">
                 <div className="imagesContent">
-                  <img src="https://s3.amazonaws.com/sigorasolar/br/rooftypes/CO-metal-roofing-+black.jpg" />
+                  <img src="https://s3.amazonaws.com/sigorasolar/br/rooftypes/premium.jpg" />
                 </div>
                 <div className="nameOptions">Premium Asphalt Shingle</div>
                 <div className="selectOptions">
@@ -139,7 +139,7 @@ class RoofingMaterial extends Component {
             <div className="contentOptions">
               <div className="cardForOptions">
                 <div className="imagesContent">
-                  <img src="https://s3.amazonaws.com/sigorasolar/br/rooftypes/CO-metal-roofing-+black.jpg" />
+                  <img src="https://s3.amazonaws.com/sigorasolar/br/rooftypes/GRAY-metal-roofing.jpg" />
                 </div>
                 <div className="nameOptions">Standing Seam Metal</div>
                 <div className="selectOptions">
@@ -178,7 +178,7 @@ class RoofingMaterial extends Component {
             <div className="contentOptions">
               <div className="cardForOptions">
                 <div className="imagesContent">
-                  <img src="https://s3.amazonaws.com/sigorasolar/br/rooftypes/CO-metal-roofing-+black.jpg" />
+                  <img src="https://s3.amazonaws.com/sigorasolar/br/rooftypes/CO-metal-roofing.jpg" />
                 </div>
                 <div className="nameOptions">Corrugated Metal</div>
                 <div className="selectOptions">
