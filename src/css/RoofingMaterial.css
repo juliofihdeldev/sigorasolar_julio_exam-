@@ -1,0 +1,124 @@
+.contentRoofingMateriel {
+    width: 682px;
+    height: 759px;
+    overflow: auto;
+    margin: auto;
+    padding-left: 42px;
+    padding-right: 42px;
+    position: relative;
+    margin-top: 29px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.3), 0 0 24px 0 rgba(0, 0, 0, 0.22);
+}
+
+.contentRoofingMateriel .titleForRoofingMateriel{
+   color: #4a90e2;
+   text-align: center;
+   font-size: 24px;
+   font-family: AvenirNext-Bold;
+   padding-top: 24px;
+   position: relative;
+}
+
+.contentRoofingMateriel .formForRoofingMateriel{
+    margin-top: 24px;
+    position: relative;
+ 
+ }
+
+ .contentRoofingMateriel .formForRoofingMateriel .contentOptions{
+    margin-top: 24px;
+ }
+
+
+ .contentOptions .cardForOptions{
+     display: flex;
+     align-items: center;
+     flex-direction: row;
+    justify-content:space-around
+ }
+
+ .contentOptions .cardForOptions img{
+    width: 90px;
+    height: 40px;
+}
+
+.contentOptions .cardForOptions .nameOptions{
+   color: #404040;
+   size: 14px;
+   font-family:Avenir-Book;
+   width: 227px;
+   height: 19px;
+}
+
+
+.contentOptions .imagesChoiceForOptionsOne{
+    margin-top: 10px;
+}
+
+.contentOptions .imagesChoiceForOptionsOne .allImagesForOptions{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around
+
+}
+.contentOptions  .imagesChoiceForOptionsOne .allImagesForOptions .contentImagesTitle {
+    color: #404040;
+      font-size: 14px;
+      font-family: Avenir-Book;
+      margin-left: 20xp;
+  }   
+  
+
+.contentOptions  .imagesChoiceForOptionsOne .allImagesForOptions .theImages{
+    width: 90px;
+    height: 40px;
+
+}
+
+.contentOptions  .imagesChoiceForOptionsOne .allImagesForOptions img{
+    width: 90px;
+    height: 40px;
+}
+
+
+
+.contentOptions  .imagesChoiceForOptionsOne .allImagesForOptions .contentImagesTitle .theName{
+  color: #404040;
+    font-size: 10px;
+    font-family: Avenir-Book;
+}   
+
+
+.contentRoofingMateriel .contentSubmit{
+
+    width: 124px;
+    height: 33px;
+    color: #fff;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.contentRoofingMateriel .submit{
+    background: #fca700;
+    font-size: 14px;
+    width: 124px;
+    height: 33px;
+    color: #fff;
+    margin: auto;
+ 
+}
+
+.contentRoofingMateriel .submit:hover{
+    background: #fca700;
+    font-size: 14px;
+    width: 124px;
+    height: 33px;
+    color: #eee;
+}
+
+.contentRoofingMateriel .include{
+    width: 120px;
+    text-align: center;
+}
